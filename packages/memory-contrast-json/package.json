@@ -1,0 +1,63 @@
+{
+  "name": "memory-contrast-json",
+  "version": "1.0.1",
+  "description": "JSON新增KEY对比工具",
+  "bin": {
+    "contrast": "bin/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/L-SUI/memory-tools.git",
+    "directory": "packages/memory-contrast-json"
+  },
+  "keywords": [
+    "memory-contrast-json",
+    "tools"
+  ],
+  "author": "memory",
+  "license": "MIT",
+  "engines": {
+    "node": ">=12.22.0"
+  },
+  "main": "bin/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "bin",
+    "lib",
+    "utils",
+    "package-lock.json",
+    "package.json"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "scripts": {
+    "publish": "npm publish"
+  },
+  "dependencies": {
+    "@babel/parser": "^7.16.4",
+    "@babel/traverse": "^7.16.3",
+    "chalk": "^4.1.2",
+    "commander": "^8.3.0",
+    "conventional-changelog": "^3.1.24",
+    "conventional-changelog-cli": "^2.1.1",
+    "cz-conventional-changelog": "^3.3.0",
+    "directory-tree": "^3.2.2",
+    "glob": "^7.2.0",
+    "handlebars": "^4.7.7",
+    "inquirer": "^8.2.0",
+    "log-symbols": "4.1.0",
+    "metalsmith": "^2.3.0",
+    "minimist": "^1.2.5",
+    "ora": "^5.4.1",
+    "semver": "^7.3.5",
+    "shelljs": "^0.8.4",
+    "standard-version": "^9.3.2",
+    "update-notifier": "^5.1.0",
+    "validate-npm-package-name": "^3.0.0",
+    "yapi-to-typescript": "^3.28.0"
+  }
+}

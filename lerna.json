@@ -1,0 +1,20 @@
+{
+  "npmClient": "npm",
+  "useWorkspaces": true,
+  "packages": [
+    "packages/*"
+  ],
+  "command": {
+    "bootstrap": {
+      "hoist": true
+    },
+    "publish": {
+      "ignoreChanges": [
+        "**/*.md"
+      ],
+      "message": "chore: publish %s"
+    }
+  },
+  "gitTagVersion": false,
+  "version": "1.0.0-alpha.1"
+}

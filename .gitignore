@@ -1,0 +1,14 @@
+.idea/
+node_modules
+.DS_Store
+*.log
+*.project
+packages/test
+dist
+temp
+.vscode/
+yarn.lock
+.cache
+src
+.history
+example
